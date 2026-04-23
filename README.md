@@ -17,3 +17,14 @@ A modern Android app built with Jetpack Compose that displays a restaurant menu 
 - Ktor
 - StateFlow / Flow
 - Material 3
+
+## 📸 Screenshots
+
+### Home Screen
+![Home](screenshots/home.jpeg)
+
+### Search
+![Search](screenshots/search.jpeg)
+
+### Ordered List
+![Ordered](screenshots/ordered.jpeg)
