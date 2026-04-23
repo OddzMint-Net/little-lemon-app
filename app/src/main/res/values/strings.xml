@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Little Lemon</string>
+    <string name="little_lemon_logo">Little Lemon Logo</string>
+    <string name="search_hint">Search menu</string>
+    <string name="order_button">Order</string>
+    <string name="menu_description">Freshly prepared and served with Little Lemon style.</string>
+    <string name="order_button_sort">Tap to Order By Name</string>
+    <string name="order_button_sorted">Showing A -&gt; Z</string>
+    <string name="sort_icon_description">Sort</string>
+    <string name="search_bar_border">Search Bar Border</string>
+</resources>
