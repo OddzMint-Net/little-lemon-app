@@ -3,12 +3,12 @@ package com.oddzmint.lemon.data.remote.dto
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class MenuResponse(
-    val menu: List<MenuItem>
+data class MenuResponseDto(
+    val menu: List<MenuItemDto>
 )
 
 @Serializable
-data class MenuItem(
+data class MenuItemDto(
     val id: Int,
     val title: String,
     val price: String

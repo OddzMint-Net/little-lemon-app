@@ -1,4 +1,4 @@
-package com.oddzmint.lemon.ui.components
+package com.oddzmint.lemon.presentation.ui.components
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth

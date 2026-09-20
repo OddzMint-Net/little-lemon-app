@@ -1,6 +1,5 @@
-package com.oddzmint.lemon.ui.components
+package com.oddzmint.lemon.presentation.ui.components
 
-import android.R
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -22,7 +21,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.oddzmint.lemon.data.local.MenuItemUi
+import com.oddzmint.lemon.presentation.ui.model.MenuItemUi
 
 @Composable
 fun MenuItemCard(

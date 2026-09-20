@@ -1,4 +1,4 @@
-package com.oddzmint.lemon.data.local
+package com.oddzmint.lemon.presentation.ui.model
 
 data class MenuItemUi(
     val id: Int,

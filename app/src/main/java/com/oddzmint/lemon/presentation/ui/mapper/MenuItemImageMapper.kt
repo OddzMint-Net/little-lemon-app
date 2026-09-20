@@ -1,9 +1,18 @@
-package com.oddzmint.lemon.ui.mapper
+package com.oddzmint.lemon.presentation.ui.mapper
 
 import com.oddzmint.lemon.R
-import com.oddzmint.lemon.data.local.MenuItemEntity
-import com.oddzmint.lemon.data.local.MenuItemUi
-import com.oddzmint.lemon.data.remote.dto.MenuItem
+import com.oddzmint.lemon.domain.model.MenuItem
+import com.oddzmint.lemon.presentation.ui.model.MenuItemUi
+
+fun MenuItem.toUi(): MenuItemUi {
+    return MenuItemUi(
+        id = id,
+        title = title,
+        price = price,
+        description = "Freshly prepared and served with Little Lemon style.",
+        imageRes = getMenuItemImage(title)
+    )
+}
 
 fun getMenuItemImage(title: String): Int {
     return when (title) {
@@ -21,30 +30,4 @@ fun getMenuItemImage(title: String): Int {
         "Iced Tea" -> R.drawable.ice_tea
         else -> R.drawable.logo
     }
-}
-
-fun MenuItem.toUi(): MenuItemUi {
-    return MenuItemUi(
-        id = id,
-        title = title,
-        price = price,
-        description = "Freshly prepared and served with Little Lemon style.",
-        imageRes = getMenuItemImage(title)
-    )
-}
-
-fun MenuItem.toEntity(): MenuItemEntity {
-    return MenuItemEntity(
-        id = id,
-        title = title,
-        price = price
-    )
-}
-
-fun MenuItemEntity.toDomain(): MenuItem{
-    return MenuItem(
-        id = id,
-        title = title,
-        price = price
-    )
 }

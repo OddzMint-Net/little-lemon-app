@@ -1,4 +1,4 @@
-package com.oddzmint.lemon.ui.theme
+package com.oddzmint.lemon.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,4 +1,4 @@
-package com.oddzmint.lemon.ui.components
+package com.oddzmint.lemon.presentation.ui.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
