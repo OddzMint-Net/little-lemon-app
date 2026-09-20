@@ -9,10 +9,12 @@ A modern Android app built with Jetpack Compose that displays a restaurant menu 
 - Smooth scrolling with optimized images
 - Offline-ready architecture with Room
 - MVVM architecture
+- Dependency Injection
 
 ## Tech Stack
 - Kotlin
 - Jetpack Compose
+- Hilt
 - Room
 - Ktor
 - StateFlow / Flow
@@ -21,10 +23,10 @@ A modern Android app built with Jetpack Compose that displays a restaurant menu 
 ## 📸 Screenshots
 
 ### Home Screen
-![Home](screenshots/home.jpeg)
+![Home](screenshots/unordered_list.png)
 
 ### Search
-![Search](screenshots/search.jpeg)
+![Search](screenshots/search_list.png)
 
 ### Ordered List
-![Ordered](screenshots/ordered.jpeg)
+![Ordered](screenshots/ordered_list.png)
