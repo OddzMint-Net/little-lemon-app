@@ -1,5 +1,6 @@
 package com.oddzmint.lemon.presentation.ui.components
 
+import android.content.res.Configuration
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -16,8 +17,11 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.oddzmint.lemon.R
+import com.oddzmint.lemon.presentation.ui.LemonPreview
+import com.oddzmint.lemon.presentation.ui.theme.LemonTheme
 
 @Composable
 fun OrderButton(
@@ -47,5 +51,42 @@ fun OrderButton(
         )
         Spacer(modifier = Modifier.width(16.dp))
         Text(text = buttonText)
+    }
+}
+
+@Preview(showBackground = true, name = "Not sorted")
+@Composable
+private fun OrderButtonDefaultPreview() {
+    LemonPreview {
+        OrderButton(
+            isOrdered = false,
+            onClick = {}
+        )
+    }
+}
+
+@Preview(showBackground = true, name = "Sorted")
+@Composable
+private fun OrderedButtonSortedPreview() {
+    LemonPreview {
+        OrderButton(
+            isOrdered = true,
+            onClick = {}
+        )
+    }
+}
+
+@Preview(
+    showBackground = true,
+    name = "Sorted (dark)",
+    uiMode = Configuration.UI_MODE_NIGHT_YES
+)
+@Composable
+private fun OrderedButtonDarkPreview() {
+    LemonPreview {
+        OrderButton(
+            isOrdered = true,
+            onClick = {}
+        )
     }
 }
