@@ -94,6 +94,21 @@ private fun HomeScreenErrorPreview() {
     }
 }
 
+@Preview(showBackground = true, name = "Ordered")
+@Composable
+private fun HomeScreenOrderedPreview() {
+    LemonTheme {
+        HomeScreen(
+            state = HomeUiState(
+                isSorted = true,
+                content = MenuContent.Success(previewItems.sortedBy { it.title })
+            ),
+            onSortClick = {},
+            onSearchPhraseChange = {}
+        )
+    }
+}
+
 @Preview(showBackground = true, name = "Sorted + searching")
 @Composable
 private fun HomeScreenSearchPreview() {
