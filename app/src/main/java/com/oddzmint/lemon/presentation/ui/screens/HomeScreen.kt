@@ -70,7 +70,7 @@ private fun HomeScreenSuccessPreview() {
     }
 }
 
-@Preview(showBackground = true, name = "Loading")
+@Preview(showBackground = true, name = "Loading",device = "spec:width=1080px,height=1920px,dpi=440")
 @Composable
 private fun HomeScreenLoadingPreview() {
     LemonTheme {
@@ -82,7 +82,7 @@ private fun HomeScreenLoadingPreview() {
     }
 }
 
-@Preview(showBackground = true, name = "Error")
+@Preview(showBackground = true, name = "Error",device = "spec:width=1080px,height=1920px,dpi=440")
 @Composable
 private fun HomeScreenErrorPreview() {
     LemonTheme {
@@ -94,7 +94,7 @@ private fun HomeScreenErrorPreview() {
     }
 }
 
-@Preview(showBackground = true, name = "Ordered")
+@Preview(showBackground = true, name = "Ordered",device = "spec:width=1080px,height=1920px,dpi=440")
 @Composable
 private fun HomeScreenOrderedPreview() {
     LemonTheme {
@@ -109,7 +109,7 @@ private fun HomeScreenOrderedPreview() {
     }
 }
 
-@Preview(showBackground = true, name = "Sorted + searching")
+@Preview(showBackground = true, name = "Sorted + searching",device = "spec:width=1080px,height=1920px,dpi=440")
 @Composable
 private fun HomeScreenSearchPreview() {
     LemonTheme {

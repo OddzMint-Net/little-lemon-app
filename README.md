@@ -2,6 +2,14 @@
 
 A modern Android app built with Jetpack Compose that displays a restaurant menu with search, sorting, and smooth UI performance.
 
+## 📸 Screenshots
+
+### Home Screen
+![Home](screenshots/screen1.png)
+![Search](screenshots/screen2.png)
+![Ordered](screenshots/screen3.png)
+![Ordered](screenshots/screen4.png)
+
 ## Features
 - Search menu items by name
 - Sort menu items (A → Z)
@@ -19,14 +27,3 @@ A modern Android app built with Jetpack Compose that displays a restaurant menu 
 - Ktor
 - StateFlow / Flow
 - Material 3
-
-## 📸 Screenshots
-
-### Home Screen
-![Home](screenshots/unordered_list.png)
-
-### Search
-![Search](screenshots/search_list.png)
-
-### Ordered List
-![Ordered](screenshots/ordered_list.png)
