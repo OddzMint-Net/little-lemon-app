@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2026 OddzMint.
+ * Licensed under the MIT License - see LICENSE file in the project root.
+ */
 package com.oddzmint.lemon.data.repository
 
 import com.oddzmint.lemon.data.local.MenuDao
