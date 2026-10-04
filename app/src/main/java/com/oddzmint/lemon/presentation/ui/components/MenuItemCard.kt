@@ -5,13 +5,7 @@
 package com.oddzmint.lemon.presentation.ui.components
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.heightIn
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -30,7 +24,6 @@ import androidx.compose.ui.unit.dp
 import com.oddzmint.lemon.R
 import com.oddzmint.lemon.presentation.ui.LemonPreview
 import com.oddzmint.lemon.presentation.ui.model.MenuItemUi
-import com.oddzmint.lemon.presentation.ui.theme.LemonTheme
 
 @Composable
 fun MenuItemCard(
